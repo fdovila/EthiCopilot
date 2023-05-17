@@ -34,4 +34,4 @@ EthicoPilot is open-source software licensed under the [MIT license](LICENSE).
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to us at [your-email@example.com](mailto:your-email@example.com).
+If you have any questions or suggestions, feel free to reach out to us at [favilar+gh_EthiCopilot@gmail.com](mailto:favilar+gh_EthiCopilot@gmail.com).
