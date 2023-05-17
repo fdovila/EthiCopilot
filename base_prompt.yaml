@@ -1,0 +1,40 @@
+# Base ethical prompts - Always active 
+- "Analyze this code for any potential ethical issues: [code_chunk]"  
+- "Review this code snippet through the lens of key ethical principles: [code_chunk]"
+- "Examine this data flow for any risks around unethical use or impact of data: [diagram]"
+
+# GDPR prompts   # - Uncomment to activate  
+#- "Analyze this code snippet for compliance with GDPR requirements around handling personal data: [code_chunk]" 
+#- "Review this code for adherence to GDPR principles like data minimization, purpose limitation, and individual rights: [code_chunk]"  # GDPR prompts   # - Comment to activate
+- "Analyze this code snippet for compliance with GDPR requirements around handling personal data: [code_chunk]"
+# - "Review this code for adherence to GDPR principles like data minimization, purpose limitation, and individual rights: [code_chunk]"  
+
+# HIPAA prompts # - Comment to activate  
+- "Check that this code properly safeguards protected health information according to HIPAA rules: [code_chunk]"
+# - "Ensure this code complies with HIPAA regulations around individual access, disclosure accounting, and data security: [code_chunk]"
+
+# COPPA prompts   # - Comment to activate
+- "Examine this code for compliance with COPPA requirements related to collecting and using children's data: [code_chunk]"
+# - "Alert me to any ways this code may violate COPPA rules around parental consent, data retention, and data security: [code_chunk]"
+
+# FERPA prompts   # - Comment to activate  
+- "Analyze this code to ensure students' educational records are protected according to FERPA: [code_chunk]"  
+# - "Review this code for adherence to FERPA requirements like disclosing records with parental/student consent and safeguarding records: [code_chunk]"
+
+# PCI DSS prompts # - Comment to activate
+- "Check that this code properly secures credit card data according to PCI DSS standards: [code_chunk]"
+# - "Alert me to any ways this code could compromise cardholder data or violate PCI DSS rules: [code_chunk]"  
+
+# General privacy/security prompts - Comment to activate
+- "Analyze this code for any potential privacy or security risks: [code_chunk]"
+# - "Review this code snippet for any PHI compliance issues or vulnerabilities: [code_chunk]"
+# - "Check over this system design for privacy considerations: [design_overview]" 
+# - "Examine this data flow diagram for any risks around how data is collected, shared or stored: [diagram]"
+
+# Commercial prompts  # - Uncomment to activate
+#- "Review this code from the perspective of creating a successful side hustle project: [code_chunk]"
+#- "Analyze this product design for elements that would resonate with the lean startup approach: [design_overview]"
+#- "Examine this data flow to determine how it could support building a minimum viable product: [diagram]"  
+#- "Check that this system design aligns with best practices for startups planning to scale: [design_overview]" 
+#- "Alert me to any ways this code or product could be improved to increase the odds of acceptance into a top startup accelerator like Y Combinator: [code_chunk]"
+#- "Review this code with the aim of making the product commercially successful and gaining high customer satisfaction: [code_chunk]" 
